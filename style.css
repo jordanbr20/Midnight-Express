@@ -1,0 +1,513 @@
+*{
+    margin: 0%;
+}
+
+.header{
+    background-color: teal;
+    width: 100%;
+    height: 50px;
+    position:static;
+}
+
+.header > a {
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 5px;
+    top: 25%;
+    left: 10px;
+    position:relative;
+}
+
+.header > a:hover{
+    color:lightblue;
+}
+
+.homecontent{
+    background-image: url("/images/cover.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95%;
+    background-position: center center;
+    position: absolute;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+}
+
+.hometitle{
+    color:whitesmoke;
+    font-size: 48px;
+    text-decoration: underline;
+    background:rgba(0, 0, 0, 0.438);
+    top: 20%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    background-clip: content-box;
+    padding: 0% 25% 0% 25%;
+}
+
+.homep{
+    color:whitesmoke;
+    background:rgba(0, 0, 0, 0.664);
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+    background-clip: content-box;
+    padding: 0% 25% 0% 25%;
+    font-size: 28px;
+}
+
+.homeserviceslink{
+    color: white;
+    background: teal;
+    text-decoration: none;
+    top: 30%;
+    position: relative;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}
+
+.servicescontent{
+    background-image: url("/images/cover2.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95%;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    padding: 0;
+    text-align: center;
+}
+
+.servicestitle{
+    color:whitesmoke;
+    font-size: 48px;
+    text-decoration: underline;
+    background:rgba(0, 0, 0, 0.438);
+    background-clip: content-box;
+    padding: 0% 25% 0% 25%;
+    top: 20%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.servicesp{
+    color:whitesmoke;
+    background:rgba(0, 0, 0, 0.664);
+    background-clip: content-box;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+    padding: 0% 25% 0% 25%;
+    font-size: 28px;
+}
+
+.contactcontent{
+    background-image: url("/images/cover3.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 95%;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    padding: 0;
+    text-align: center;
+}
+
+.contacttitle{
+    color:whitesmoke;
+    font-size: 48px;
+    text-decoration: underline;
+    background:rgba(0, 0, 0, 0.438);
+    top: 20%;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    background-clip: content-box;
+    padding: 0% 25% 0% 25%;
+}
+
+.contactp{
+    color:whitesmoke;
+    background:rgba(0, 0, 0, 0.664);
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+    background-clip: content-box;
+    padding: 0% 25% 0% 25%;
+    font-size: 28px;
+}
+
+.contactemaillink{
+    color: white;
+    background: teal;
+    text-decoration: none;
+    top: 30%;
+    position: relative;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}
+
+footer{
+    position: fixed;
+    top:98%;
+    background-color: transparent;
+    color: white;
+}
+
+footer > a{
+    text-decoration: none;
+    color: white;
+}
+
+.mediafooter{
+    position: fixed;
+    top:98%;
+    background-color: transparent;
+    color: black;
+}
+
+.mediafooter > a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width:480px) { 
+    /* Smartphone view: 1 tile */
+    .header {
+        width: 100%;
+        height: 35px;
+        position: static;
+    }
+    
+    .header > a{
+        font-size: 14px;
+        text-align: center;
+        align-items: center;
+        left: 5%;
+        position: relative;
+    }
+
+    /* Contact Page */
+    .homecontent{
+        position:absolute;
+    }
+
+    .hometitle{
+        font-size: 24px;
+        top: 20%;
+        position: relative;
+    }
+
+    .homep{
+        font-size: 12px;
+        top: 20%;
+        position: relative;
+    }
+
+    .homeserviceslink{
+        text-decoration: none;
+        top:25%;
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 25px;
+    }
+
+    /* Services Page */
+    .servicescontent{
+        position:absolute;
+    }
+
+    .servicestitle{
+        font-size: 24px;
+        top: 20%;
+        position: relative;
+    }
+
+    .servicesp{
+        font-size: 12px;
+        top: 25%;
+        position: relative;
+    }
+
+    /* Contact Page */
+    .contactcontent{
+        position:absolute;
+    }
+
+    .contacttitle{
+        font-size: 24px;
+        top: 20%;
+        position: relative;
+    }
+
+    .contactp{
+        font-size: 12px;
+        top: 25%;
+        position: relative;
+    }
+    .contactemaillink{
+        text-decoration: none;
+        top:30%;
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+        border-radius: 25px;
+    }
+}
+@media only screen and (max-width:650px) and (min-width:481px) { 
+    /* Tablet view: 2 tiles */
+    .header {
+        width: 100%;
+        height: 45px;
+        position: static;
+    }
+    
+    .header > a{
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        left: 7%;
+        position: relative;
+    }
+
+    /* Contact Page */
+    .homecontent{
+        position:absolute;
+    }
+
+    .hometitle{
+        font-size: 36px;
+        top: 15%;
+        position: relative;
+    }
+
+    .homep{
+        font-size: 24px;
+        top: 15%;
+        position: relative;
+    }
+
+    .homeserviceslink{
+        text-decoration: none;
+        top:20%;
+        font-size: 24px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 25px;
+    }
+
+    /* Services Page */
+    .servicescontent{
+        position:absolute;
+    }
+
+    .servicestitle{
+        font-size: 36px;
+        top: 15%;
+        position: relative;
+    }
+
+    .servicesp{
+        font-size: 16px;
+        top: 20%;
+        position: relative;
+    }
+
+    /* Contact Page */
+    .contactcontent{
+        position:absolute;
+    }
+
+    .contacttitle{
+        font-size: 36px;
+        top: 15%;
+        position: relative;
+    }
+
+    .contactp{
+        font-size: 24px;
+        top: 20%;
+        position: relative;
+    }
+    .contactemaillink{
+        text-decoration: none;
+        top:25%;
+        font-size: 24px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 25px;
+    }
+}
+@media only screen and (max-width:1050px) and (min-width:651px) { 
+    /* Small desktop / ipad view: 3 tiles */
+    .header {
+        width: 100%;
+        height: 45px;
+        position: static;
+    }
+    
+    .header > a{
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        left: 1%;
+        position: relative;
+    }
+
+    /* Contact Page */
+    .homecontent{
+        position:absolute;
+    }
+
+    .hometitle{
+        font-size: 36px;
+        top: 15%;
+        position: relative;
+    }
+
+    .homep{
+        font-size: 24px;
+        top: 15%;
+        position: relative;
+    }
+
+    .homeserviceslink{
+        text-decoration: none;
+        top:20%;
+        font-size: 24px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 25px;
+    }
+
+    /* Services Page */
+    .servicescontent{
+        position:absolute;
+    }
+
+    .servicestitle{
+        font-size: 36px;
+        top: 15%;
+        position: relative;
+    }
+
+    .servicesp{
+        font-size: 16px;
+        top: 20%;
+        position: relative;
+    }
+
+    /* Contact Page */
+    .contactcontent{
+        position:absolute;
+    }
+
+    .contacttitle{
+        font-size: 36px;
+        top: 15%;
+        position: relative;
+    }
+
+    .contactp{
+        font-size: 24px;
+        top: 20%;
+        position: relative;
+    }
+    .contactemaillink{
+        text-decoration: none;
+        top:25%;
+        font-size: 24px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 25px;
+    }
+}
+@media only screen and (max-width:1290px) and (min-width:1051px) { 
+    /* Medium desktop: 4 tiles */
+    .header {
+        width: 100%;
+        height: 45px;
+        position: static;
+    }
+    
+    .header > a{
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        left: 7%;
+        position: relative;
+    }
+
+    /* Contact Page */
+    .homecontent{
+        position:absolute;
+    }
+
+    .hometitle{
+        font-size: 36px;
+        top: 15%;
+        position: relative;
+    }
+
+    .homep{
+        font-size: 24px;
+        top: 15%;
+        position: relative;
+    }
+
+    .homeserviceslink{
+        text-decoration: none;
+        top:20%;
+        font-size: 24px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 25px;
+    }
+
+    /* Services Page */
+    .servicescontent{
+        position:absolute;
+    }
+
+    .servicestitle{
+        font-size: 36px;
+        top: 15%;
+        position: relative;
+    }
+
+    .servicesp{
+        font-size: 16px;
+        top: 20%;
+        position: relative;
+    }
+
+    /* Contact Page */
+    .contactcontent{
+        position:absolute;
+    }
+
+    .contacttitle{
+        font-size: 36px;
+        top: 15%;
+        position: relative;
+    }
+
+    .contactp{
+        font-size: 24px;
+        top: 20%;
+        position: relative;
+    }
+    .contactemaillink{
+        text-decoration: none;
+        top:25%;
+        font-size: 24px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 25px;
+    }
+}
